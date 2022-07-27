@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import MainHome from "./components/MainHome/MainHome.js";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MainServices from "./components/MainServices/MainServices.js";
+import MainContact from "./components/Contact/MainContact.js";
+import GraphicDesign from "./components/Pages/GraphicDesign";
+import WebDesign from "./components/Pages/WebDesign";
+import AppDesign from "./components/Pages/AppDesign";
+import Animation from "./components/Pages/Animation";
+import Blog from "./components/Blog/Blog";
+import AboutUs from "./components/AboutUs/AboutUs";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/" element={<MainHome />}></Route>
+        <Route path="/mainService" element={<MainServices />}></Route>
+        <Route path="/contact" element={<MainContact />}></Route>
+        <Route path="/blog" element={<Blog />}></Route>
+        <Route path="/aboutUs" element={<AboutUs />}></Route>
+        <Route path="/graphicDesignPage" element={<GraphicDesign />}></Route>
+        <Route path="/webDesignPage" element={<WebDesign />}></Route>
+        <Route path="/appDesignPage" element={<AppDesign />}></Route>
+        <Route path="/animationPage" element={<Animation />}></Route>
+      </Routes>
     </div>
   );
 }

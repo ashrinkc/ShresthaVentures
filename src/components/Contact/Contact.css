@@ -1,0 +1,66 @@
+.fullContact {
+    width: 1350px;
+}
+
+.tourImg {
+    width: 1352px;
+    height: 500px;
+}
+
+.contactUsHead {
+background-color: rgb(54, 51, 51);
+   width: 100%;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 30vh;
+}
+
+
+
+.contactContainer {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    gap: 5vw;
+    justify-content: center;
+}
+
+.mainContactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.inputField {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.msgInput {
+    width: 570px;
+}
+
+input {
+    width: 262.34px;
+    height: 40px;
+}
+
+.contactSubmitbtn {
+    background-color: #FF0000;
+    width: 13vw;
+    height: 7vh;
+    border: none;
+    border-radius: 10px;
+}
+
+.contactBtnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+}

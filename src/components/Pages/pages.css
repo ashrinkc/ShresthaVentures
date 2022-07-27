@@ -1,0 +1,96 @@
+.mainServiceTwo {
+    background-color: rgb(17, 16, 16);
+    color: white;
+    margin-top: -5vh;
+}
+
+.welcomeBottom {
+    margin-left: 100px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    font-size: 1.5rem;
+    margin: 5vh 0;
+}
+
+.welcome>h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.welcome>small {
+    font-family: Papyrus;
+}
+
+.serviceTitles {
+    display: flex;
+    gap: 5vw;
+}
+
+.serviceTitles:hover {
+    cursor: pointer;
+}
+
+.serviceContent>img {
+    width: 80vw;
+}
+
+.seeAllBtn {
+    border: none;
+    margin: 5vh 0;
+    color: red;
+    background-color: rgb(17, 16, 16);
+}
+
+.devItemsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.devItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    gap: 2vw;
+    flex-wrap: wrap;
+    /* margin-left: 180px; */
+    padding-bottom: 5vh;
+}
+
+.pgImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+.pgImg>img{
+    width: 20vw;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.pgImg>img:hover{
+    position: relative;
+    bottom: 3vh;
+
+}
+
+.fProjectsTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh 0;
+background-color: black;
+       
+        /* background-image: linear-gradient(to right, black,rgb(145, 9, 9)); */
+    height: 20vh;
+}

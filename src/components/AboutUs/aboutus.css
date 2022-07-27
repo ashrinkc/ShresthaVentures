@@ -1,0 +1,16 @@
+.aboutImage>img{
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+
+.aboutTitle{
+    display: flex;
+    justify-content: center;
+}
+.aboutTitle>h3{
+    position: absolute;
+    top: 30vh;
+    font-size: 15vh;
+    font-family: fantasy;
+}

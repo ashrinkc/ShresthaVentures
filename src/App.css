@@ -1,3 +1,11 @@
+
+
+
+* {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +44,8 @@
     transform: rotate(360deg);
   }
 }
+
+button:hover{
+  cursor: pointer;
+}
+

@@ -1,0 +1,72 @@
+.blogTop{
+    background-color: black;
+    color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogTop>h1{
+    color: white;
+        font-family: "Great Vibes", cursive;
+        font-size: 10vh;
+       
+        
+        
+}
+
+
+
+.blogInfo{
+    display: flex;
+    gap: 5vh;
+    justify-content: center;
+    margin: 5vh 0;
+}
+
+.blogInfo>div{
+    width: 45vw;
+    font-size: 3vh;
+}
+
+.blogInfo>div:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.blogInfo>img{
+    width: 45vw;
+    height: 60vh;
+}
+
+.blogBtn{
+    display: flex;
+    gap: 5vh;
+    padding-bottom: 10vh;
+}
+
+.blogBtn>button>img{
+    width: 3vw;
+    height: 7vh;
+}
+
+.blogBtn>button:hover{
+    background-color: red;
+}
+
+.showMoreBtnBlog{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.showMoreBtnBlog>button{
+    background-color: red;
+    width: 15vw;
+    height: 8vh;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+}

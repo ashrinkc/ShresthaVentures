@@ -1,0 +1,11 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(32, 32, 32); */
+background-color:black;
+    color: white;
+    /* background-color: rgb(230, 68, 68); */
+}
+
+
+

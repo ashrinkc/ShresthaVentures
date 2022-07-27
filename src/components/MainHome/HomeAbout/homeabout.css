@@ -1,0 +1,42 @@
+.homeAbout{
+    display: flex;
+        justify-content: center;
+        gap: 10vw;
+        align-items: center;
+        padding-right:12vh;
+}
+
+.homeAboutInfo{
+    width: 35vw;
+}
+
+.homeAboutInfo>p{
+    font-family: 'League Gothic', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Trispace', sans-serif;
+}
+
+.homeAboutInfo>h1{
+    color: rgb(207, 10, 10);
+}
+
+.hAboutBtn{
+    background-color: red;
+        color: white;
+        border: none;
+        width: 12vw;
+        height: 6vh;
+        border-radius: 8px;
+}
+
+.mainHomeAbout{
+    height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+.hbgif{
+    width: 40vw;
+    padding-left: -20vw;
+}

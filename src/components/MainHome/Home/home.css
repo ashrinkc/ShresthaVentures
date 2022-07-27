@@ -1,0 +1,59 @@
+.homeHead{
+    display: flex;
+    justify-content: center;
+    gap: 15vw;
+    align-items: center;
+}
+
+.mainHome{
+    /* width: 90vw; */
+    background-color: rgb(26, 24, 24);
+    color: white;
+        /* margin-top: 10vh; */
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-left: 70px; */
+}
+
+/* .semiCir{
+    position: absolute;
+    left: 45%;
+    top: 80%;
+    background-color: rgb(54, 51, 51);
+    height: 50px;
+        width: 100px;
+    border-radius: 0 0 150px 150px;
+} */
+.homeGif{
+    width: 40vw;
+    height: 65vh;
+}
+
+.homeHeadContent{
+    width: 30vw;
+}
+
+.homeHeadContent>p{
+    font-size: 0.8rem;
+    font-family: 'League Gothic', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Trispace', sans-serif;
+        line-height: 3vh;
+}
+
+.homeHeadContent>h1 {
+    font-family:'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+}
+
+.homeBtn{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 12vw;
+    height: 6vh;
+    
+}
+
+
