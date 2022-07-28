@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./service.css";
 import handy from "../../Images/handyFolder.gif";
-import logo from "../../Images/Logo.png";
 import art from "../../Images/artStudio.png";
 import srv from "../../Images/srv.png";
 import wedstr from "../../Images/weddingstore.png";
@@ -292,73 +291,23 @@ const Service = () => {
             <img src="https://cdn.pixabay.com/photo/2021/05/04/13/29/portrait-6228705_1280.jpg" />
             <small>Mike Kelly</small>
           </div>
-          {/* <div>
-            <img
-              style={{ width: "3vw" }}
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnbn9q61AbFjkzf7QXfcXG8RgH3FCeYV0PZQ&usqp=CAU"
-            />
-          </div> */}
         </div>
       </div>
       <div className="getStartedContainer">
         <div className="getStarted">
-          {/* <div>
-            <img style={{ width: "10vw" }} src={logo} />
-          </div> */}
+          <div>
+            <img style={{ width: "15vw" }} src={handy} />
+          </div>
           <div>
             <h1>Have A Project In Mind?</h1>
           </div>
           <div>
             <button className="Startedbtn" onClick={contact}>
-              Contact Us
+              Get Started -{">"}
             </button>
           </div>
         </div>
       </div>
-      {/* <div className="aboutUsContainer">
-        <h1>About Us</h1>
-        <div className="aboutUs">
-          <div className="aboutUsInfo">
-            <h4>Who Are We?</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur
-            </p>
-          </div>
-          <div>
-            <hr className="abouthr" />
-          </div>
-          <div className="aboutUsInfo">
-            <h4>Our Philosophy</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur
-            </p>
-          </div>
-          <div>
-            <hr className="abouthr" />
-          </div>
-          <div className="aboutUsInfo">
-            <h4>How We Work?</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur
-            </p>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

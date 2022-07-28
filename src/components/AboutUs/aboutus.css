@@ -7,10 +7,71 @@
 .aboutTitle{
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+    color: white;
 }
-.aboutTitle>h3{
+
+.aboutTitle>h3:nth-of-type(1){
     position: absolute;
     top: 30vh;
-    font-size: 15vh;
+    font-size: 8vh;
     font-family: fantasy;
+    width: 60vw;
+}
+
+.aboutTitle>h3:nth-of-type(2) {
+    position: absolute;
+    top: 40vh;
+    font-size: 8vh;
+    font-family: fantasy;
+    width: 60vw;
+    margin-left: 20vw;
+
+}
+
+.aboutContentContainer{
+    background-color: white;
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+
+.aboutContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+}
+
+.trustedClients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.trustedClients>h1{
+    padding: 5vh 0;
+}
+
+.aboutContent>h1{
+    font-size: 3rem;
+    color: red;
+    
+}
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainAbout{
+    background-color: rgb(26, 24, 24);
+    height: 100%;
+    color: white;
 }

@@ -5,6 +5,8 @@
         font-family: 'Poppins', sans-serif;
         font-family: 'Trispace', sans-serif;
 }
+
+
 .topWelcome{
     width: 40vw;
     font-size: 1.5rem;
@@ -149,14 +151,14 @@
     justify-content: center;
     gap: 8vw;
     width: 80vw;
-    height: 20vh;
+    height: 15vh;
     background-color:rgb(168, 11, 11);
    border-radius: 1rem;
 }
 
 .getStarted>div>h1{
-    margin-left: 20vw;
-   
+    /* margin-left: 20vw; */
+   font-size: 1rem;
 }
 
 .getStartedContainer{
@@ -169,13 +171,13 @@
 }
 
 .Startedbtn{
-    height: 10vh;
+    height: 8vh;
     width: 10vw;
     border-style: solid;
     border-color: white;
     background-color: rgb(168, 11, 11);
     color: white;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 
@@ -216,8 +218,6 @@
 }
 
 .reviewInside>small:nth-of-type(2){
-    
-    
     position: absolute;
     top: 47vh;
     padding-left: 12vw;
