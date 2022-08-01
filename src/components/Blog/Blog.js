@@ -17,14 +17,15 @@ const Blog = () => {
   return (
     <div>
       <Navbar />
-      <div className="blogTop">
-        <h1>SHRESTHA VENTURES BLOG</h1>
-        <h5>
-          Based in Kathmandu we provide you variety of services for you to chose
-          from.
-        </h5>
-      </div>
-      <div>
+      <div className="blogContainer">
+        <div className="blogTop">
+          <h1>SHRESTHA VENTURES BLOG</h1>
+          <h5>
+            Based in Kathmandu we provide you variety of services for you to
+            chose from.
+          </h5>
+        </div>
+
         <div className="blogInfo">
           <img src="https://img.freepik.com/free-vector/colorful-creepy-creatures-illustration-background_516247-10.jpg?w=2000" />
           <div>

@@ -7,5 +7,13 @@ background-color:black;
     /* background-color: rgb(230, 68, 68); */
 }
 
+.footer>div>h2{
+    font-size: 1rem;
+}
+
+.footer>div>h4{
+    font-size: 0.8rem;
+}
+
 
 

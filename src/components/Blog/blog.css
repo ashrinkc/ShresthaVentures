@@ -1,5 +1,5 @@
 .blogTop{
-    background-color: black;
+    background-color: rgb(26, 24, 24);
     color: white;
     height: 50vh;
     display: flex;
@@ -10,13 +10,9 @@
 
 .blogTop>h1{
     color: white;
-        font-family: "Great Vibes", cursive;
-        font-size: 10vh;
-       
-        
-        
+        /* font-family: "Great Vibes", cursive; */
+        font-size: 10vh;   
 }
-
 
 
 .blogInfo{

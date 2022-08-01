@@ -172,7 +172,7 @@
 
 .Startedbtn{
     height: 8vh;
-    width: 10vw;
+    max-width: 15vw;
     border-style: solid;
     border-color: white;
     background-color: rgb(168, 11, 11);
@@ -220,7 +220,7 @@
 .reviewInside>small:nth-of-type(2){
     position: absolute;
     top: 47vh;
-    padding-left: 12vw;
+    margin-left: 12vw;
 }
 
 .reviewInside>img{

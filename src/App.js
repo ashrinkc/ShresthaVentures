@@ -9,6 +9,7 @@ import AppDesign from "./components/Pages/AppDesign";
 import Animation from "./components/Pages/Animation";
 import Blog from "./components/Blog/Blog";
 import AboutUs from "./components/AboutUs/AboutUs";
+import AdminPanel from "./components/AdminPanel/AdminPanel";
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
         <Route path="/webDesignPage" element={<WebDesign />}></Route>
         <Route path="/appDesignPage" element={<AppDesign />}></Route>
         <Route path="/animationPage" element={<Animation />}></Route>
+        <Route path="/admin" element={<AdminPanel />}></Route>
       </Routes>
     </div>
   );

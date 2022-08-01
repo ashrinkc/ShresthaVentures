@@ -31,12 +31,41 @@
 }
 
 .aboutContentContainer{
-    background-color: white;
-    color: black;
-    width: 100%;
     display: flex;
     justify-content: center;
-    padding-bottom: 5vh;
+    align-items: center;
+    padding: 10vh 0;
+}
+
+.inContainerAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    gap: 10vw;
+}
+
+.inContainerInfo{
+    display: flex;
+    flex-direction: column;
+    max-width: 35vw;
+    gap: 3vh;
+}
+
+.inContainerAbout>div>button{
+    background-color: red;
+        color: white;
+        border: none;
+        width: 20vw;
+        height: 5vh;
+        border-radius: 1rem;
+        /* margin-top: 10vh; */
+}
+
+
+.aboutContentContainer>div>div>img{
+    width: 35vw;
+    height: 50vh;
 }
 
 .aboutContent{
@@ -45,6 +74,25 @@
     align-items: center;
     justify-content: center;
     width: 80vw;
+}
+
+
+.carrerImg{
+    display: flex;
+    gap: 1vw;
+}
+.carrerImg>div>img{
+    width: 25vw;
+    height: 30vh;
+}
+
+.carrerImg>div>button{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 1rem;
 }
 
 .trustedClients{
@@ -75,3 +123,56 @@
     height: 100%;
     color: white;
 }
+
+.ourTeam{
+    display: flex;
+    gap: 10vh;
+    padding-bottom: 10vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    padding: 10vh 0;
+}
+
+.ourTeamContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.ourTeam>div>img{
+    max-width:45vh;
+    height:50vh;
+    border-radius: 0.5rem;
+}
+
+.oTm>p{
+    width: 20vw;
+}
+
+.careerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white;
+    color: black;
+    width: 100%; */
+}
+
+.career{
+    display: flex;
+        flex-direction: column;
+        padding: 10vh 0;
+        /* justify-content: center;
+        align-items: center; */
+}
+
+.career>p{
+    width: 80vw;
+    line-height: 5vh;
+}
+
