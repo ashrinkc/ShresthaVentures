@@ -7,7 +7,7 @@ import Service from "./Services/Service";
 
 const MainHome = () => {
   return (
-    <div className="mainHomeContainer">
+    <div>
       <Navbar />
       <Home />
       <HomeAbout />

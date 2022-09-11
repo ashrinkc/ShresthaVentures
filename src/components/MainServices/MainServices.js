@@ -7,7 +7,7 @@ const MainServices = () => {
     <div>
       <Navbar />
       <ServicesBody />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

@@ -1,59 +1,668 @@
-.homeHead{
-    display: flex;
-    justify-content: center;
-    gap: 15vw;
-    align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Josefin+Sans:wght@100&family=League+Gothic&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,800;1,900&family=Red+Hat+Display:wght@500&family=Trispace:wght@300&display=swap');
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.homeTopImg>img{
+    width: 35vw;
+    height: 80vh;
+}
+
+.homeTop{
+    width: 100%;
+}
+
+.homeTopInfoH1{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.homeTopInfoH2{
+    font-size: 4rem;
+    color: rgb(218,31,38);
+    font-weight: 900;
+}
+
+.homeTopInfoH3{
+    font-size: 1.3rem;
+   
 }
 
 .mainHome{
-    /* width: 90vw; */
-    background-color: rgb(26, 24, 24);
-    color: white;
-        /* margin-top: 10vh; */
-    height: 70vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin-left: 70px; */
+    align-items: center;
+    margin-top: 2vh;
+    /* font-size: 0; */
 }
 
-/* .semiCir{
-    position: absolute;
-    left: 45%;
-    top: 80%;
-    background-color: rgb(54, 51, 51);
-    height: 50px;
-        width: 100px;
-    border-radius: 0 0 150px 150px;
-} */
-.homeGif{
-    width: 40vw;
-    height: 65vh;
+.homeTopInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding-top: 20vh;
 }
 
-.homeHeadContent{
-    width: 30vw;
-}
-
-.homeHeadContent>p{
-    font-size: 0.8rem;
-    font-family: 'League Gothic', sans-serif;
-        font-family: 'Poppins', sans-serif;
-        font-family: 'Trispace', sans-serif;
-        line-height: 3vh;
-}
-
-.homeHeadContent>h1 {
-    font-family:'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
-}
-
-.homeBtn{
-    background-color: red;
+.homeTopInfo>button{
+    background-color: rgb(218,31,38);
     color: white;
+    border-radius: 20vw;
     border: none;
-    width: 12vw;
-    height: 6vh;
+    width: 10vw;
+    height: 5vh;
+    margin-top: 2vh;
+    font-size: 0.7rem;
+}
+
+
+
+.homeTop{
+    display: flex;
+    justify-content: center;
+    /* width: 85%; */
+    margin-bottom: 10vh;
+    /* margin-left: 8vw; */
+    /* align-items: center; */
+}
+
+.mainHomee{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notMainHome{
+    width: 90%;
+}
+
+.midHome {
+    /* width: 85%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin-bottom: 10vh;
+    /* font-size: 0; */
+}
+
+.midHome>div>img{
+    width: 35vw;
+    /* height: 80vh; */
+}
+
+.midHomeInfo{
+    
+    /* font-size: 0; */
+}
+
+.midHomeInfo>h3{
+    font-size: 2rem;
+    font-weight: 500;
+    /* padding-bottom: -5vh; */
+}
+
+.midHomeInfo>h1{
+    width: 45vw;
+    font-size: 3.5rem;
+    color: rgb(218,31,38);
+    font-weight: 900;
+    line-height: 3.5rem;
+    /* margin-bottom: -1vh; */
+    letter-spacing: 1px;
+}
+
+.midHomeInfo>p{
+    font-size: 1rem;
+    width: 45vw;
+}
+
+.midHomeInfo>button{
+    background-color: rgb(218,31,38);
+        color: white;
+        border-radius: 20vw;
+        border: none;
+        width: 10vw;
+        height: 5vh;
+        margin-top: 2vh;
+        font-size: 0.7rem;
+}
+
+.mainService{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 10vh;
+}
+
+.strategyCom{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 60vh;
+        width: 20vw;
+        -webkit-box-shadow: 0px 0px 15px 1px gray;
+            -moz-box-shadow: 0px 0px 15px 1px gray;
+            box-shadow: 0px 0px 10px 1px gray;
+        border-radius: 1rem;
+        background-color:whitesmoke;
+}
+
+.stComIn{
+    height: 55vh;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2vh;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 3vh;
+}
+
+.stComIn>h3{
+    font-size: 1.4rem;
+        font-weight: 900;
+        color: rgb(218, 31, 38);
+}
+
+.stComIn>p{
+    font-size: 0.8rem;
+}
+
+.stImg{
+    background-color:gainsboro;
+    margin-bottom: 2vh;
+    width: 5vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.stImg>img{
+    height: 8vh;
+   
+}
+
+.stComIn>button{
+    background-color: rgb(218, 31, 38);
+        border: none;
+        color: white;
+        height: 4vh;
+        width: 7vw;
+        font-size: 0.6rem;
+        border-radius: 0.3rem;
+        margin-top: 1vh;
+}
+
+.strategy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    flex-wrap: wrap;
+    margin: 5vh 0;
+    cursor: pointer;
+}
+
+.Mstrategy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.strategyCom>p {
+    width: 15vw;
+    /* padding-left: 2vw; */
+}
+
+.strategyCom>h3 {
+    /* padding-left: 2vw; */
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: rgb(218, 31, 38);
+}
+
+/* .strategyCom:hover {
+    background-color: rgb(218, 31, 38);
+    color: white;
+    cursor: pointer;
+} */
+
+
+
+.topWelcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topWelcome>h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(218, 31, 38);
+    margin-bottom: 1vh;
+}
+
+.topWelcome>small{
+    font-size: 1.2rem;
+}
+
+.strategyCom>button{
+    background-color: rgb(218, 31, 38);
+    border: none;
+    color: white;
+    height: 4vh;
+    width: 7vw;
+    font-size: 0.6rem;
+    border-radius: 0.3rem;
+    margin-top: 5vh;
+}
+
+
+
+
+
+.allServices{
+    background-color: rgb(218, 31, 38);
+        border: none;
+        color: white;
+        font-size: 0.6rem;
+            border-radius: 1rem;
+            height: 5vh;
+            width: 10vw;
+}
+
+.strategyCom>button:hover{
+    background-color: white;
+    color: red;
     
 }
+
+button{
+    cursor: pointer;
+}
+
+.sponsorContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    /* height: 70vh; */
+    /* padding-bottom: 20vh; */
+    /* padding-top: 10vh; */
+}
+
+.sponsorContainer>h1 {
+    color: rgb(218, 31, 38);
+    font-size: 8vh;
+    font-weight: 900;
+    margin-bottom: 5vh;
+}
+
+
+
+.sponsorsInside {
+    display: flex;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 0px 0px 15px 1px gray;
+        -moz-box-shadow: 0px 0px 15px 1px gray;
+        box-shadow: 0px 0px 10px 1px gray;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 30vh;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.sponsorsInside>p {
+    width: 15vw;
+}
+
+.reviewContainer {
+    /* height: 80vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.reviewContainer>h1 {
+color: rgb(218, 31, 38);
+    font-size: 8vh;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    align-items: center;
+}
+
+.reviewInside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    /* border-style: solid; */
+    border-radius: 0.5rem;
+    width: 23vw;
+    height: 40vh;
+    background-color: whitesmoke;
+        -webkit-box-shadow: 0px 0px 15px 1px gray;
+        -moz-box-shadow: 0px 0px 15px 1px gray;
+        box-shadow: 0px 0px 10px 1px gray;
+    position: relative;
+}
+
+.reviewInside>small {
+    width: 18vw;
+}
+
+.reviewInside>small:nth-of-type(2) {
+    position: absolute;
+    top: 47vh;
+    margin-left: 13.5vw;
+}
+
+.reviewInside>img {
+    position: absolute;
+    width: 5rem;
+    border-radius: 50rem;
+    top: 33vh;
+}
+
+.getStartedContainer {
+    display: flex;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    width: 100%;
+    margin-bottom: 10vh;
+}
+
+.getStarted {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15vw;
+    width: 95%;
+    height: 40vh;
+    background-color: rgb(218, 31, 38);
+    border-radius: 1rem;
+    color: white;
+}
+
+.getStarted>div>h1 {
+    /* margin-left: 20vw; */
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.getStarted>div>h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.quote{
+    display: flex;
+    gap: 3vh;
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+    align-items:baseline;
+    margin-top: 2vh;
+}
+
+.quote>p{
+    
+    font-size: 1.1rem;
+}
+
+.getStarted>div>div>button{
+    border: none;
+    font-size: 0.9rem;
+    color: red;
+    width: 10vw;
+    height: 5vh;
+}
+
+
+
+.Startedbtn {
+    height: 8vh;
+    /* max-width: 15vw; */
+    border-style: solid;
+    border-color: white;
+    font-size: 1rem;
+    color: black;
+    border-radius: 0.5rem;
+}
+
+.digitalSolution{
+    width: 100%;
+    background-color: rgb(24, 23, 23);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10vh;
+}
+
+.handy{
+    height: 40vh;
+}
+
+.digitalSolution>h1{
+    color: rgb(233, 14, 21);
+    font-size: 4rem;
+    padding-top: 5vh;
+    font-weight: 900;
+}
+
+.digitalSolution>h5{
+    font-size: 1.2rem;
+}
+
+.digitalSolutionComponent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7vh;
+}
+
+.digitalImg>div>img{
+    height: 10vh;
+}
+
+.digitalInfoContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin: 10vh 0;
+}
+
+.digiBlack{
+    width: 23vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.digiBlack:hover{
+    background-color: rgb(233, 14, 21);
+}
+
+.digitalImg{
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
+
+.digitalImg>p{
+    font-size: 0.8rem;
+}
+
+.digiimgContainer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vw;
+    height: 12vh;
+    border-radius: 0.5rem;
+}
+
+.bigRocket>img{
+    height: 95vh;
+    width: 40vw;
+    border-radius: 1rem;
+}
+
+.ourCourses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin-top: 10vh;
+}
+
+.ourCourses>h1{
+    color: rgb(233, 14, 21);
+        font-size: 4rem;
+        
+        font-weight: 900;
+}
+
+.ourCourses>h5{
+    font-size: 1.2rem;
+}
+
+.courseMain{
+    display: flex;
+    gap: 3vh;
+    margin-top: 5vh;
+}
+
+.courseContainer{
+    width: 20vw;
+    height: 30vh;
+}
+
+.courseContainer>h3{
+    font-size: 1.3rem;
+    color: rgb(233, 14, 21);
+    font-weight: 900;
+    padding-top: 2vh;
+
+}
+
+
+
+.courseContainer>p {
+    font-size: 0.8rem;
+}
+
+.courseContainer>button{
+    background-color: rgb(218, 31, 38);
+    color: white;
+    font-size: 0.7rem;
+    border: none;
+    border-radius: 0.2rem;
+    width: 6vw;
+    height: 3.5vh;
+    
+}
+
+.courseImg{
+    background-color:antiquewhite;
+    width: 8vh;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50rem;
+}
+
+.courseImg>img{
+    height: 5vh;
+}
+
+.ourCrs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    
+}
+
+.ourCrImg>img{
+    width: 30vw;
+    height: 57ch;
+    border-radius: 1rem;
+}
+
+.ourCoursesMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourCoursesMain>button{
+    background-color: rgb(218, 31, 38) ;
+    color: white;
+    margin-top: 10vh;
+    border: none;
+    width: 10vw;
+    height: 5vh;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 980px){
+    .homeTop{
+        flex-direction: column;
+    }
+    .homeTopImg>img{
+        height: auto;
+        width: 100%;
+    }
+    .midHome{
+        flex-direction: column-reverse;
+    }
+    .midHome>div>img{
+        height: auto;
+        width: 100%;
+    }
+}
+
+
 
 

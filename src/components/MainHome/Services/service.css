@@ -1,13 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
-*{
-    font-family: 'League Gothic', sans-serif;
-        font-family: 'Poppins', sans-serif;
-        font-family: 'Trispace', sans-serif;
-}
-
-
-.topWelcome{
+/* .topWelcome{
     width: 40vw;
     font-size: 1.5rem;
     padding-bottom: 5vh;
@@ -22,11 +14,11 @@
         font-family: 'Poppins', sans-serif;
         font-family: 'Trispace', sans-serif;
         
-}
+} */
 
 
 
-.mainService{
+/* .mainService{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +26,7 @@
     padding-left: 100px;
     margin-bottom: 5vh;
     background-color: rgb(26, 24, 24);
-}
+} */
 
 
 
@@ -47,24 +39,23 @@
     margin-top: -5vh;
 }
 
-.strategy{
+/* .strategy{
     display: flex;
     gap: 5vh;
    flex-wrap: wrap;
-}
+} */
 
-.strategyCom{
+/* .strategyCom{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
     height: 45vh;
     width: 19.4vw;
     background-color: rgb(37, 37, 37);
     border-radius: 1rem;
-}
+} */
 
-.strategyCom>p{
+/* .strategyCom>p{
     width: 15vw;
     padding-left: 2vw;
 }
@@ -76,7 +67,7 @@
 .strategyCom:hover{
     background-color: red;
     cursor: pointer;
-}
+} */
 
 .aboutUsContainer{
     margin-left: 100px;
@@ -112,7 +103,7 @@
 }
 
 
-.sponsorContainer{
+/* .sponsorContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,9 +116,9 @@
 .sponsorContainer>h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:8vh;
-}
+} */
 
-.sponsorsInside{
+/* .sponsorsInside{
     display: flex;
     background-color: rgb(37, 37, 37);
     align-items: center;
@@ -140,10 +131,10 @@
 
 .sponsorsInside>p{
     width: 15vw;
-}
+} */
 
 
-
+/* 
 .getStarted{
     
     display: flex;
@@ -157,20 +148,20 @@
 }
 
 .getStarted>div>h1{
-    /* margin-left: 20vw; */
+   
    font-size: 1rem;
-}
+} */
 
-.getStartedContainer{
+/* .getStartedContainer{
     display: flex;
     background-color: rgb(26, 24, 24);
     height: 40vh;
     align-items: center;
     justify-content: center;
     font-family: 'Times New Roman', serif;
-}
+} */
 
-.Startedbtn{
+/* .Startedbtn{
     height: 8vh;
     max-width: 15vw;
     border-style: solid;
@@ -178,10 +169,10 @@
     background-color: rgb(168, 11, 11);
     color: white;
     border-radius: 0.5rem;
-}
+} */
 
 
-.reviewContainer{
+/* .reviewContainer{
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -191,8 +182,8 @@
 
 .reviewContainer>h1{
     padding-bottom: 5vh;
-}
-.review{
+} */
+/* .review{
     display: flex;
     justify-content: center;
     gap: 5vw;
@@ -205,7 +196,6 @@
     justify-content: center;
     align-items: center;
     gap: 5vh;
-    /* border-style: solid; */
     border-radius: 0.5rem;
     width: 23vw;
     height: 40vh;
@@ -228,7 +218,7 @@
     width: 5rem;
     border-radius: 50rem;
     top: 33vh;
-}
+} */
 
 .ourLatestWorkContainer{
     display: flex;

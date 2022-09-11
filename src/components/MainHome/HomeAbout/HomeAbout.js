@@ -17,12 +17,20 @@ const HomeAbout = () => {
           />
         </div>
         <div className="homeAboutInfo">
-          <h1>We Are Creative Dreamers and Innovators</h1>
-          <p>
-            We provide only high quality services with an individual approach to
-            each project. Projects created by us work an bring pleasant benefits
-            to your business.
-          </p>
+          <div>
+            <h3>OUR STORY</h3>
+          </div>
+          <div>
+            <h1>We Are Creative Dreamers & Innovators</h1>
+          </div>
+          <div>
+            <p>
+              With years of experience and a vision to help you conquer the
+              digital world, we have set foot on this path. This allows us to
+              provide the utmost services, top-notch experience, and
+              high-quality solutions to every client who knocks our door
+            </p>
+          </div>
           <button className="hAboutBtn" onClick={aboutPage}>
             About Us
           </button>

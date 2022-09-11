@@ -10,7 +10,7 @@ const ServicesBody = () => {
   };
   return (
     <div style={myStyle}>
-      <div className="serviceBody">
+      {/* <div className="serviceBody">
         <h6>
           WE NOT ONLY HAVE THE SKILLS TO SOLVE OUR CLIENTS PROBLEM WE HELP THEM
           THINK THROUGH THE BEST OF THE SCENARIOS
@@ -95,7 +95,7 @@ const ServicesBody = () => {
             <h5>Brand Strategy</h5>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
